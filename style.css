@@ -1,0 +1,46 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  border-radius: 10px; /* Arrotondamento dei bordi per un aspetto più morbido */
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btn{
+  font-size: 20px;
+}
+
+.dog-testimonial{
+  border-radius: 500px;
+}
+
+.gradient-background-testimonial{
+
+  background: linear-gradient(to right, #a5938f, #ffffff); /* Esempio di sfondo lineare sfumato */
+  color: white; /* Colore del testo per contrastare con lo sfondo */
+  padding: 20px; /* Padding aggiuntivo per spaziatura */
+  border-radius: 10px; /* Arrotondamento dei bordi per un aspetto più morbido */
+
+}
